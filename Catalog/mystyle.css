@@ -1,0 +1,66 @@
+
+body {
+  background-color:lightblue;
+}
+
+h1 {
+  color:white;
+  text-align:center;
+}
+
+#para1{
+  color:blue;
+  font-family:verdana;
+  font-size:20px;
+  }
+#para2{
+  color:red;
+  font-family:serif;
+  font-size:21px;
+}
+#para3 {
+    color:green;
+    font-family:cursive;
+    font-size: 22px;
+}  
+h2 {
+  color:yellow;
+  font-family:monospace;
+  font-size:23px;
+  
+  }
+h3{
+  color:purple;
+  font-family:Fantasy;
+  font-size:24px;
+  }
+img{
+  opacity:0.5;
+  border-radius:122px;
+  width:400px;
+  height:400px;
+  }
+
+table, th, td {
+  background:brown;
+  border:1px solid;
+  }
+  ul {
+  background:#3399ff;
+  padding:20px;
+  border:1px solid;
+}
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+}
