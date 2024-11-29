@@ -1,0 +1,113 @@
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+	color: #333;
+}
+header {
+	display: flex;
+	text-align: center;
+	justify-content: right;
+	background-color: #c4e17f;
+	padding: 20px;
+	border: 6px solid #000;
+}
+
+h1 {
+		margin: 0;
+		font-size: 28px;
+		text-align:center;
+		color: rgba(70, 130, 180, 0.9); 
+		text-shadow: 1px 1px 2px #333; 
+	}
+body {
+	margin: 20px auto;
+	max-width: 900px;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+	font-size: 22px;
+	color: #007bff; 
+	text-decoration: underline; 
+}
+.specificatii-tehnice {
+	color: #c4e17f;
+}
+lista {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+	table th,
+	table td {
+		border: 2px solid #8a2be2;
+		text-align: center;
+		padding: 10px;
+		background-color: #ffffff; 
+	}
+
+	table th {
+		background-color: #ffffff; 
+		font-weight: bold;
+		color: black;
+	}
+
+
+.internet {
+	background-color: #A9EAFE; 
+	border: 2px solid #ff9933;
+	padding: 15px;
+	border-radius: 8px;
+
+}
+	.internet h2, .internet carac {
+		color: #007b55;
+		text-align:center;
+	}
+
+#poza1 {
+	display: block;
+	max-width: 80%; 
+	margin: 10px auto;
+	border: 2px solid #007bff;
+	border-radius: 8px;
+}
+.slideshow {
+	position: relative;
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+	border-radius: 8px;
+	margin-top: 20px;
+	border: 1px solid #cccccc;
+}
+
+	.slideshow .slide {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		transition: opacity 1s ease-in-out;
+	}
+
+		.slideshow .slide.active {
+			opacity: 1;
+		}
+
+	.slideshow img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
